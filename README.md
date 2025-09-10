@@ -35,11 +35,16 @@ python segmenter.py
 
 ## 🖼️ Example
 
-Input image (placed in `data/sample.jpg`):
+<div style="display: flex; align-items: flex-start;">
 
-![input-example](docs/input_example.jpg)
+  <div style="margin-right: 20px; text-align: center;">
+    <p><strong>Input</strong></p>
+    <img src="example/input.jpg" alt="Input" width="300"/>
+  </div>
 
-Output mask (saved as `mask/sample_mask.jpg`):
+  <div style="text-align: center;">
+    <p><strong>Output</strong></p>
+    <img src="example/output.jpg" alt="Output" width="300"/>
+  </div>
 
-![mask-example](docs/output_example.jpg)
-
+</div>
