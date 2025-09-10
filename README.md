@@ -56,11 +56,11 @@ python segmenter.py
   <tr>
     <td align="center">
       <b>Input</b><br>
-      <img src="example/input.jpg" width="300"/>
+      <img src="example/input.jpg" width="150"/>
     </td>
     <td align="center">
       <b>Output</b><br>
-      <img src="example/output.jpg" width="300"/>
+      <img src="example/output.jpg" width="150"/>
     </td>
   </tr>
 </table>
