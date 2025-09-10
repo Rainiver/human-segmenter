@@ -1,39 +1,45 @@
-# Human Segmenter  
+# Human Segmenter
 
-## 📌 Description  
+## 📌 Description
 This repository provides a simple human segmentation tool based on a pre-trained TensorFlow frozen graph (`.pb` model).  
-It generates binary masks for human regions in images, which can be used for background removal, matting, or preprocessing pipelines.  
+It generates binary masks for human regions in images, which can be used for background removal, matting, or preprocessing pipelines.
 
 ---
 
-## ⚙️ Installation  
-Clone the repo and install dependencies:  
+## ⚙️ Installation
+Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/Rainiver/human-segmenter.git
 cd human-segmenter
 pip install -r requirements.txt
+```
 
+> Note: The script uses `tensorflow.compat.v1` and disables v2 behavior. If you have TF v2 installed, the compatibility wrapper is used in the code.
+
+---
 
 ## 🚀 Usage
 
-### 1. Run segmentation on your own data  
-Put your test images into `./data/` and run:  
+### 1. Prepare files
+- Place the pre-trained model file `matting_human.pb` (or your `.pb` model) in the project root.
+- Put input images into the `./data/` folder (create it if missing).
+- Ensure there is an (empty) `./mask/` folder, or the script will create output files in `./mask/` automatically.
 
+### 2. Run segmentation
 ```bash
 python segmenter.py
+```
 
+---
 
+## 🖼️ Example
 
-## 🖼️ Example  
+Input image (placed in `data/sample.jpg`):
 
-Input image (`data/sample.jpg`):  
+![input-example](docs/input_example.jpg)
 
-![input](docs/input_example.jpg)  
+Output mask (saved as `mask/sample_mask.jpg`):
 
-Generated mask (`mask/sample_mask.jpg`):  
-
-![mask](docs/output_example.jpg)  
-
-
+![mask-example](docs/output_example.jpg)
 
