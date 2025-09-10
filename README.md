@@ -19,6 +19,23 @@ pip install -r requirements.txt
 
 ---
 
+## 📦 Model Download  
+
+The pre-trained model file `matting_human.pb` is too large to include directly in the repository.  
+Please download it from Google Drive:
+
+[Download matting_human.pb](https://drive.google.com/file/d/1deOGzwQ_yLIgJfncsya4wBVR3A2HKpWE/view?usp=drive_link)
+
+Place the downloaded file in the `model/` folder of the repository:  
+
+```text
+human-segmenter/
+├── segmenter.py
+├── model/
+│   └── matting_human.pb
+└── ...
+```
+
 ## 🚀 Usage
 
 ### 1. Prepare files
@@ -46,5 +63,4 @@ python segmenter.py
     <p><strong>Output</strong></p>
     <img src="example/output.jpg" alt="Output" width="300"/>
   </div>
-
 </div>
