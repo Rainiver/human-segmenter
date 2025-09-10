@@ -14,9 +14,8 @@ git clone https://github.com/Rainiver/human-segmenter.git
 cd human-segmenter
 pip install -r requirements.txt
 
----
 
-## 🚀 Usage  
+## 🚀 Usage
 
 ### 1. Run segmentation on your own data  
 Put your test images into `./data/` and run:  
@@ -24,7 +23,7 @@ Put your test images into `./data/` and run:
 ```bash
 python segmenter.py
 
----
+
 
 ## 🖼️ Example  
 
