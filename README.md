@@ -21,8 +21,7 @@ pip install -r requirements.txt
 
 ## 📦 Model Download  
 
-The pre-trained model file `matting_human.pb` is too large to include directly in the repository.  
-Please download it from Google Drive:
+Download the pre-trained model file `matting_human.pb` from Google Drive:
 
 [Download matting_human.pb](https://drive.google.com/file/d/1deOGzwQ_yLIgJfncsya4wBVR3A2HKpWE/view?usp=drive_link)
 
@@ -53,14 +52,15 @@ python segmenter.py
 ## 🖼️ Example
 
 <div style="display: flex; align-items: flex-start;">
-
-  <div style="margin-right: 20px; text-align: center;">
-    <p><strong>Input</strong></p>
-    <img src="example/input.jpg" alt="Input" width="300"/>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Output</strong></p>
-    <img src="example/output.jpg" alt="Output" width="300"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <b>Input</b><br>
+      <img src="example/input.jpg" width="300"/>
+    </td>
+    <td align="center">
+      <b>Output</b><br>
+      <img src="example/output.jpg" width="300"/>
+    </td>
+  </tr>
+</table>
