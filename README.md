@@ -1,6 +1,6 @@
 # Human Segmenter
 
-> **Note**: This project originates from earlier work and has been recently reorganized and released for reproducibility.
+> **Note**: This project originates from my earlier work and has been recently reorganized and released for reproducibility.
 
 ## 📌 Description
 This repository provides a simple human segmentation tool based on a pre-trained TensorFlow frozen graph (`.pb` model).  
