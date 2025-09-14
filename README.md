@@ -1,5 +1,7 @@
 # Human Segmenter
 
+> **Note**: This project originates from earlier work and has been recently reorganized and released for reproducibility.
+
 ## 📌 Description
 This repository provides a simple human segmentation tool based on a pre-trained TensorFlow frozen graph (`.pb` model).  
 It generates binary masks for human regions in images, which can be used for background removal, matting, or preprocessing pipelines.
@@ -64,3 +66,4 @@ python segmenter.py
     </td>
   </tr>
 </table>
+
